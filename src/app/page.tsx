@@ -3,8 +3,9 @@
 import { motion } from "framer-motion";
 import { Github, Mail, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Scene3D from "@/components/Scene3D";
-import Projects from "@/components/Projects";
+import Scene3D from "@/app/Scene3D";
+import Projects from "@/app/Projects";
+
 
 export default function Home() {
   return (
