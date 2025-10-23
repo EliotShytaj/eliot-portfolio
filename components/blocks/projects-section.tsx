@@ -74,14 +74,9 @@ export function ProjectsSection() {
                       unoptimized
                     />
                   </div>
-                  <a
-                    href={project.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 px-4 py-2 bg-neutral-700 hover:bg-neutral-600 text-white text-sm font-medium rounded-lg transition-colors text-center"
-                  >
+                  <div className="mt-4 px-4 py-2 bg-neutral-700 hover:bg-neutral-600 text-white text-sm font-medium rounded-lg transition-colors text-center">
                     View Project
-                  </a>
+                  </div>
                 </div>
               </PinContainer>
             </motion.div>
