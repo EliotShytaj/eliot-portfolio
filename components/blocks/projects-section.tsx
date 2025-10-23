@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'BandsAI',
-    description: 'Intelligent music recommendation and playlist generation powered by AI.',
+    description: 'AI-native e-commerce platform for selling products on ChatGPT with no code required.',
     href: 'https://bandsai.vercel.app/',
     image: '/projects/bands.png',
   },
