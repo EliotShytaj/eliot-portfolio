@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { cn } from '@/lib/utils'
 
 export function NavLinks({ className }: { className?: string }) {
@@ -12,9 +11,9 @@ export function NavLinks({ className }: { className?: string }) {
   return (
     <nav className={cn('hidden md:flex items-center gap-6 text-sm', className)}>
       {links.map((link) => (
-        <Link key={link.href} href={link.href} className="opacity-80 hover:opacity-100 transition">
+        <a key={link.href} href={link.href} className="opacity-80 hover:opacity-100 transition">
           {link.label}
-        </Link>
+        </a>
       ))}
     </nav>
   )
