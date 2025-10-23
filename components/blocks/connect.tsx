@@ -58,7 +58,7 @@ export function Connect() {
   useEffect(() => {
     // Cal.com inline embed initialization
     // @ts-ignore - Cal.com embed code
-    (function (C, A, L) {
+    (function (C: any, A: any, L: any) {
       let p = function (a: any, ar: any) { a.q.push(ar); };
       let d = C.document;
       C.Cal = C.Cal || function () {
@@ -86,15 +86,15 @@ export function Connect() {
     })(window, "https://app.cal.com/embed/embed.js", "init");
 
     // @ts-ignore
-    window.Cal("init", "15min", { origin: "https://app.cal.com" });
+    (window as any).Cal("init", "15min", { origin: "https://app.cal.com" });
     // @ts-ignore
-    window.Cal.ns["15min"]("inline", {
+    (window as any).Cal.ns["15min"]("inline", {
       elementOrSelector: "#my-cal-inline-15min",
       config: { layout: "month_view" },
       calLink: "eliot-1xlvfw/15min",
     });
     // @ts-ignore
-    window.Cal.ns["15min"]("ui", {
+    (window as any).Cal.ns["15min"]("ui", {
       hideEventTypeDetails: false,
       layout: "month_view"
     });
