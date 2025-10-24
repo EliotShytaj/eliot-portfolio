@@ -9,6 +9,6 @@ export const site = {
   location: 'New York, USA',
   email: 'mailto:eliotshytaj05@gmail.com',
   github: 'https://github.com/eliotshytaj',
-  linkedin: 'https://www.linkedin.com/in/eliotshytaj',
+  linkedin: 'https://www.linkedin.com/in/eliot-shytaj/',
   resumeUrl: 'https://drive.google.com/file/d/1CZM6d857vk2N-fWIWsI88I_BtbA6vCr3/view?usp=sharing',
 }

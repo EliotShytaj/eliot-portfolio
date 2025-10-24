@@ -34,7 +34,7 @@ const contactMethods = [
   {
     icon: LinkedInIcon,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/eliotshytaj',
+    value: 'linkedin.com/in/eliot-shytaj',
     href: site.linkedin,
     color: 'bg-neutral-800 dark:bg-neutral-700',
   },
